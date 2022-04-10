@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.2.3",
+    "node-scrapy": "^0.5.0",
+    "usehooks-ts": "^2.4.2"
+  }
+}
