@@ -44,11 +44,3 @@ curl --location --request GET 'localhost:8081/media?pageSize=10&page=1' \
 - [x] Support both server side rendering and client side rendering (React, Angular..) scraper.
 - [ ] Do have the demo video of the working delivered submission included.
 
-### Imagine you're given 1 CPU and 1GB RAM server to run the BE, how can you scale your scraper to handle ~5000 URL at the same time
-For this we have to consider multiple things
-
-1. How much time a scraper taking to scrap the images and videos
-2. Either we are flexible with the time or not
-
-If our scraper is taking 5% CPU and 5% RAM to scape the data we can run 20 docker instances
-If we are concerning about the time we can either scale vertical (by increasing the number of processors and ram) or horizontal (by running multiple servers with multiple docker containers)
