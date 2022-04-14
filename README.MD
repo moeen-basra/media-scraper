@@ -34,13 +34,13 @@ curl --location --request GET 'localhost:8081/media?pageSize=10&page=1' \
 ## TODO:
 - [x] Create an API which will accept an array for Web URL in the request Body.
 - [x] Add Basic Server Auth Middleware.
-- [ ] Add Middleware for Logging and Error Handling.
+- [x] Add Middleware for Logging and Error Handling.
 - [x] Scrap Image and Video URLs for requested Web URL's.
 - [x] Store All Data into any SQL database.
-- [ ] Create a simple web page for showing all the Images and Video's.
+- [x] Create a simple web page for showing all the Images and Video's.
 - [x] Paginate front-end API and we can filter data based upon type and search text.
 - [x] Use Node.js for backend and React.js for front-end.
 - [x] Dockerize your code using docker-compose or any docker orchestrator that can be run on personal computers.
 - [x] Support both server side rendering and client side rendering (React, Angular..) scraper.
-- [ ] Do have the demo video of the working delivered submission included.
+- [x] Do have the demo video of the working delivered submission included.
 
